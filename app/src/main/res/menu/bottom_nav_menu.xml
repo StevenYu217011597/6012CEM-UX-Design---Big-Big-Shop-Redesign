@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="主頁" />
+
+    <item
+        android:id="@+id/navigation_favourite"
+        android:icon="@drawable/ic_favourite"
+        android:title="喜愛商品" />
+
+    <item
+        android:id="@+id/navigation_categories"
+        android:icon="@drawable/ic_category"
+        android:title="商品分類" />
+
+    <item
+        android:id="@+id/navigation_cart"
+        android:icon="@drawable/ic_shopping_cart_outline_svgrepo_com"
+        android:title="購物車" />
+
+    <item
+        android:id="@+id/navigation_setting"
+        android:icon="@drawable/ic_groupsetting"
+        android:title="帳戶/設定" />
+
+</menu>

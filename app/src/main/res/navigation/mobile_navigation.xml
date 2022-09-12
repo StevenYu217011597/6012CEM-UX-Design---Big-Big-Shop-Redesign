@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.bigbigshop.ui.home.HomeFragment"
+        android:label="主頁"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_favourite"
+        android:name="com.example.bigbigshop.ui.favourite.FavouriteFragment"
+        android:label="喜愛商品"
+        tools:layout="@layout/fragment_favourite"  />
+
+    <fragment
+        android:id="@+id/navigation_categories"
+        android:name="com.example.bigbigshop.ui.catergories.CatergoriesFragment"
+        android:label="商品分類"
+        tools:layout="@layout/fragment_categories" >
+        <action
+            android:id="@+id/action_navigation_categories_to_navigation_PetProductCategories"
+            app:destination="@id/navigation_PetProductCategories" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_subcategories"
+        android:name="com.example.bigbigshop.ui.catergories.SubCatergoriesFragment"
+        android:label="SubCatergories"
+        tools:layout="@layout/fragment_subcategories" >
+        <action
+            android:id="@+id/action_navigation_subcategories_to_navigation_PetProductCategories"
+            app:destination="@id/navigation_PetProductCategories" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_PetProductCategories"
+        android:name="com.example.bigbigshop.ui.catergories.PetProductCatergories"
+        android:label="PetProductCatergories"
+        tools:layout="@layout/fragment_petproductcatergories" >
+        <action
+            android:id="@+id/action_navigation_PetProductCategories_to_navigation_subcategories"
+            app:destination="@id/navigation_subcategories" />
+        <action
+            android:id="@+id/action_navigation_PetProductCategories_to_navigation_categories"
+            app:destination="@id/navigation_categories" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_cart"
+        android:name="com.example.bigbigshop.ui.cart.CartFragment"
+        android:label="購物車"
+        tools:layout="@layout/fragment_cart" />
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.example.bigbigshop.ui.setting.SettingFragment"
+        android:label="帳戶/設定"
+        tools:layout="@layout/fragment_setting" />
+</navigation>

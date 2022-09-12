@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Steven/AndroidStudioProjects/BigBigShop/app/src/main/res/drawable/ic_apple_payment.xml" value="0.316" />
+        <entry key="..\:/Users/Steven/AndroidStudioProjects/BigBigShop/app/src/main/res/layout/activity_cart_confirm_fragment.xml" value="0.31302083333333336" />
+        <entry key="..\:/Users/Steven/AndroidStudioProjects/BigBigShop/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/Steven/AndroidStudioProjects/BigBigShop/app/src/main/res/layout/fragment_cart.xml" value="0.67" />
+        <entry key="..\:/Users/Steven/AndroidStudioProjects/BigBigShop/app/src/main/res/layout/fragment_cartconfirm.xml" value="0.31302083333333336" />
+        <entry key="..\:/Users/Steven/AndroidStudioProjects/BigBigShop/app/src/main/res/layout/fragment_cartpromote.xml" value="0.33" />
+        <entry key="..\:/Users/Steven/AndroidStudioProjects/BigBigShop/app/src/main/res/layout/fragment_categories.xml" value="0.1" />
+        <entry key="..\:/Users/Steven/AndroidStudioProjects/BigBigShop/app/src/main/res/layout/fragment_favourite.xml" value="0.2672239108409321" />
+        <entry key="..\:/Users/Steven/AndroidStudioProjects/BigBigShop/app/src/main/res/layout/fragment_home.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/Steven/AndroidStudioProjects/BigBigShop/app/src/main/res/layout/fragment_notifications.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/Steven/AndroidStudioProjects/BigBigShop/app/src/main/res/layout/fragment_paymentmethod.xml" value="0.317481884057971" />
+        <entry key="..\:/Users/Steven/AndroidStudioProjects/BigBigShop/app/src/main/res/layout/fragment_petproductcatergories.xml" value="0.33" />
+        <entry key="..\:/Users/Steven/AndroidStudioProjects/BigBigShop/app/src/main/res/layout/fragment_setting.xml" value="0.2672239108409321" />
+        <entry key="..\:/Users/Steven/AndroidStudioProjects/BigBigShop/app/src/main/res/layout/fragment_subcategories.xml" value="0.35824175824175825" />
+        <entry key="..\:/Users/Steven/AndroidStudioProjects/BigBigShop/app/src/main/res/layout/menu.xml" value="0.3104166666666667" />
+        <entry key="..\:/Users/Steven/AndroidStudioProjects/BigBigShop/app/src/main/res/layout/single_view_layout.xml" value="0.2672239108409321" />
+        <entry key="..\:/Users/Steven/AndroidStudioProjects/BigBigShop/app/src/main/res/menu/actionbar_menu.xml" value="0.31302083333333336" />
+        <entry key="..\:/Users/Steven/AndroidStudioProjects/BigBigShop/app/src/main/res/menu/bottom_nav_menu.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/Steven/AndroidStudioProjects/BigBigShop/app/src/main/res/menu/menu.xml" value="0.31302083333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
